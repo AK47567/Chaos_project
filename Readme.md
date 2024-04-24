@@ -46,4 +46,6 @@ Before running the project, ensure you have the following installed:
 
 8. Now based on the prompt that is given by the user, it will generate the image and store it in a image file in the same directory.
 
+9. P.S. Dont forget to generate your API key and enter it in the authorization section in the views.py file.
+
     
