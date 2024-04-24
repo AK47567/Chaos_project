@@ -44,4 +44,6 @@ Before running the project, ensure you have the following installed:
 
     python manage.py runserver
 
+8. Now based on the prompt that is given by the user, it will generate the image and store it in a image file in the same directory.
+
     
