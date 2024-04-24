@@ -17,14 +17,21 @@ Clone the repository(change branch to master, dont use main default) to your loc
 git clone https://github.com/AK47567/Chaos_project.git
 cd chaos_project
 
-3.Create a Virtual Environment
+Create a Virtual Environment
 
 python -m venv venv
 Activate the virtual environment
 
 venv\scripts\activate
 
-5.Install all the required dependencies
+Make the necessary migrations
+
+Add the database of your choice in settings and then run the following commands
+
+python manage.py makemigrations
+python manage.py migrate
+
+Install all the required dependencies
 
 pip install -r requirements.txt
 Start the Celery worker
