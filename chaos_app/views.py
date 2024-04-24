@@ -4,9 +4,9 @@ from django.http import JsonResponse
 
 @shared_task
 def generate_images(prompt):
-    prompt = 'a photo of Ronaldo and Messi boxing'
+    prompt = 'A red flying dog'
     headers = {
-        "authorization": "Bearer sk-clh9w3At8rUMD5zAY2W6RnIkMjxNE0nR4ngkQCmDTaeSGrHA",
+        "authorization": "Bearer Your API Key",
         "accept": "image/*"
     }
 
