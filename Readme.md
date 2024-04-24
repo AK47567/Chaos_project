@@ -17,7 +17,7 @@ Before running the project, ensure you have the following installed:
 
 ### Installing
 
-1. Clone the repository to your local machine:
+1. Clone the repository(change branch to master, dont use main default) to your local machine:
 
    ```bash
    git clone https://github.com/AK47567/Chaos_project.git
